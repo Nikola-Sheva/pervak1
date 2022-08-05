@@ -1,3 +1,113 @@
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: "Myriad Pro Regular";
+  src: url("../font/MyriadPro-Regular.eot");
+  src: url("../font/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../font/MyriadPro-Regular.woff") format("woff"), url("../font/MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Myriad Pro Light";
+  src: url("../font/MyriadPro-Light.eot");
+  src: url("../font/MyriadPro-Light.eot?#iefix") format("embedded-opentype"), url("../font/MyriadPro-Light.woff") format("woff"), url("../font/MyriadPro-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Comforter";
+  src: url("../font/Comforter-Regular.eot");
+  src: local("../font/Comforter Regular"), local("Comforter-Regular"), url("../font/Comforter-Regular.eot?#iefix") format("embedded-opentype"), url("../font/Comforter-Regular.woff2") format("woff2"), url("../font/Comforter-Regular.woff") format("woff"), url("../font/Comforter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.header {
+  min-height: 900px;
+}
+.header-heading {
+  min-height: 122px;
+  background-color: #fff;
+}
+.header-navbar {
+  min-height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #8a8e8f;
+}
+.header-hero {
+  display: flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  min-height: 700px;
+  background-color: #b7bcbe;
+}
+
+.text {
+  margin-right: 180px;
+  margin-bottom: 160px;
+}
+.text-one {
+  min-height: 80px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  font-family: Baskerville;
+  font-size: 72px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #fcf9f7;
+}
+.text-two {
+  min-height: 30px;
+  font-family: Athelas;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #d7794a;
+}
+
+.kn-buttom {
+  padding: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.kn-buttom-first {
+  margin-left: 60px;
+  padding: 22px;
+  background-color: #7e9299;
+}
+
+body {
+  font-family: "Myriad Pro Light", sans-serif;
+}
+
+.header-heading {
+  font-family: "Myriad Pro";
+  padding-left: 66px;
+  font-size: 45px;
+  line-height: 197px;
+  font-weight: 400;
+  letter-spacing: 0.035em;
+  color: #d7794a;
+}
+
+.kn-buttom {
+  font-family: "Myriad Pro";
+  font-size: 29px;
+  line-height: 95px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.35em;
+  color: #e8e6e6;
+}
+
+.kn-buttom-first {
+  font-family: "Myriad Pro";
+  font-size: 29px;
+  line-height: 95px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.35em;
+  color: #302f2f;
 }/*# sourceMappingURL=style.css.map */
